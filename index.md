@@ -1,14 +1,23 @@
 # TransMatch: a transfer learning scheme for semi-supervised few-shot learning
 
-Zhongjie Yu[1], Lin Chen[2], Zhongwei Cheng[3], Jiebo Luo[4]
-[1]
-[2]
-[3]
-[4]
-You can use the [editor on GitHub](https://github.com/yzjdsly/TransMatch/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Zhongjie Yu<sup>1<sup>, Lin Chen<sup>2<sup>, Zhongwei Cheng<sup>3<sup>, Jiebo Luo<sup>4<sup>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<sup>1<sup>University of Wisconsin-Madison
 
+<sup>2<sup>
+
+<sup>3<sup>
+  
+<sup>4<sup>
+  
+  
+# Abstract
+
+The successful application of deep learning to many visual recognition tasks relies heavily on the availability of a large amount of labeled data which is usually expensive to obtain. The few-shot learning problem has attracted increasing attention from researchers for building a robust model upon only a few labeled samples. Most existing works tackle this problem under the meta-learning framework by mimicking the few-shot learning task with an episodic training strategy. In this paper, we propose a new transfer-learning framework for semi-supervised few-shot learning to fully utilize the auxiliary information from labeled base-class data and unlabeled novel-class data. The framework consists of three components: 1) pre-training a feature extractor on base-class data; 2) using the feature extractor to initialize the classifier weights for the novel classes; and 3) further updating the model with a semi-supervised learning method. Under the proposed framework, we develop a novel method for semi-supervised few-shot learning called TransMatch by instantiating the three components with Imprinting and MixMatch. Extensive experiments on two popular benchmark datasets for few-shot learning, CUB-200-2011 and miniImageNet, demonstrate that our proposed method can effectively utilize the auxiliary information from labeled base-class data and unlabeled novel-class data to significantly improve the accuracy of few-shot learning task.
+
+# Semi-supervised few-shot learning framework
+
+<p align="center"><img width="90%" src="transmatch.jpg" /></p>
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
