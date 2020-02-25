@@ -1,7 +1,10 @@
 # TransMatch: a transfer learning scheme for semi-supervised few-shot learning
 
-asdfghjklhgfghj
-
+Zhongjie Yu[1], Lin Chen[2], Zhongwei Cheng[3], Jiebo Luo[4]
+[1]
+[2]
+[3]
+[4]
 You can use the [editor on GitHub](https://github.com/yzjdsly/TransMatch/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
