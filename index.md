@@ -32,6 +32,11 @@ The overall architecture of our model.
 # Results
 
 ### Accuracy (in %) with different number of unlabeled images on miniImagenet
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
 │          Method           │ Imprinting  │ MixMatch  │ TranMatch (Ours) │
 | ---------------------- | ------------ | ------------ | ------------ |
 | Imprinting            | `58.68 ± 0.81` | `52.00 ± 1.20` | `63.02 ± 1.07` |
