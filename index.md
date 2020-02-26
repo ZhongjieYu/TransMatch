@@ -16,18 +16,21 @@ Full paper: [Link](url)
 The successful application of deep learning to many visual recognition tasks relies heavily on the availability of a large amount of labeled data which is usually expensive to obtain. The few-shot learning problem has attracted increasing attention from researchers for building a robust model upon only a few labeled samples. Most existing works tackle this problem under the meta-learning framework by mimicking the few-shot learning task with an episodic training strategy. In this paper, we propose a new transfer-learning framework for semi-supervised few-shot learning to fully utilize the auxiliary information from labeled base-class data and unlabeled novel-class data. The framework consists of three components: 1) pre-training a feature extractor on base-class data; 2) using the feature extractor to initialize the classifier weights for the novel classes; and 3) further updating the model with a semi-supervised learning method. Under the proposed framework, we develop a novel method for semi-supervised few-shot learning called TransMatch by instantiating the three components with Imprinting and MixMatch. Extensive experiments on two popular benchmark datasets for few-shot learning, CUB-200-2011 and miniImageNet, demonstrate that our proposed method can effectively utilize the auxiliary information from labeled base-class data and unlabeled novel-class data to significantly improve the accuracy of few-shot learning task.
 
 # Semi-supervised few-shot learning framework
+
+### meta-learning based semi-supervised few-shot learning
+
 <p align="center"><img width="90%" src="meta-based.jpg" /></p>
+
+### our transfer-learning based semi-supervised few-shot learning
 
 <p align="center"><img width="90%" src="transmatch.jpg" /></p>
 
-The overall architecture of our model.
 
-### Pre-train feature extractor
-We pre-train a base network on all examples in base classes. Different conventional meta-learning based few-shot learning, this helps the classifier fully adsorb the information from base classes.
-### Classifer weight imprinting
-We use the feature extractor to extract feature embeddings for few labeled samples on novel classes. Then we use these feature embeddings to imprint weights of the novel classifier, which serves as a better initialization for the classifier.
-### Semi-supervised fine-tuning by MixMatch.
-We adopt the holisitc semi-supervised method MixMatch to fine-tune the novel classifier on few labeled samples and many unlabeled samples. Any better semi-supervised methods could be applied directly for fine-tuning the novel classifier.
+**Pre-train feature extractor**: We pre-train a base network on all examples in base classes. Different conventional meta-learning based semi-supervised few-shot learning, this helps the classifier fully adsorb the information from base classes.
+
+**Classifer weight imprinting**: We use the feature extractor to extract feature embeddings for few labeled samples on novel classes. Then we use these feature embeddings to imprint weights of the novel classifier, which serves as a better initialization for the classifier.
+
+**Semi-supervised fine-tuning by MixMatch**: We adopt the holisitc semi-supervised method MixMatch to fine-tune the novel classifier on few labeled samples and many unlabeled samples. Any better semi-supervised methods could be applied directly for fine-tuning the novel classifier.
 
 # Results
 
