@@ -65,7 +65,7 @@ Please cite our paper if it is helpful to your work:
 
 ```
 @inproceedings{TransMatchCVPR2020,
-  title={{TransMatch}: A Transfer Learning Scheme for Semi-Supervised Few-Shot Learning},
+  title={TransMatch: A Transfer Learning Scheme for Semi-Supervised Few-Shot Learning},
   author = {Zhongjie Yu and Lin Chen and Zhongwei Cheng and Jiebo Luo},
   booktitle={IEEE/CVF International Conference on Computer Vision and Pattern Recognition},
   year={2020}
