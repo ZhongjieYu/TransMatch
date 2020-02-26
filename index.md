@@ -31,27 +31,27 @@ The overall architecture of our model.
 
 # Results
 
-### Accuracy (in %) with different number of unlabeled images on miniImagenet
+#### Accuracy (in %) with different number of unlabeled images on miniImagenet
 <p align="center"><img width="50%" src="table2.PNG" /></p>
 
 
-### Comparison of Imprinting, MixMatch and our TransMatch for 5-way classification with different number of shots on miniImagenet
+#### Comparison of Imprinting, MixMatch and our TransMatch for 5-way classification with different number of shots on miniImagenet
 <p align="center"><img width="50%" src="comparison.png" /></p>
 
 
-### Comparison of using Pseudo-Label and MixMatch in the semi-supervised fine-tuning part on miniImagenet
+#### Comparison of using Pseudo-Label and MixMatch in the semi-supervised fine-tuning part on miniImagenet
 <p align="center"><img width="50%" src="table3.PNG" /></p>
 
 
-### Accuracy (in %) of MixMatch and TransMatch with different number of distractor classes on miniImagenet
+#### Accuracy (in %) of MixMatch and TransMatch with different number of distractor classes on miniImagenet
 <p align="center"><img width="50%" src="table4.PNG" /></p>
 
 
-### Accuray (in %) comparison on CUB-200-2011
+#### Accuray (in %) comparison on CUB-200-2011
 <p align="center"><img width="50%" src="table5.PNG" /></p>
 
 
-### Accuray (in %) comparison with different number of unlabeled images on CUB-200-2011
+#### Accuray (in %) comparison with different number of unlabeled images on CUB-200-2011
 <p align="center"><img width="50%" src="table6.PNG" /></p>
 
 
