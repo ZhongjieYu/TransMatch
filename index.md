@@ -23,11 +23,11 @@ The successful application of deep learning to many visual recognition tasks rel
 The overall architecture of our model.
 
 ### Pre-train feature extractor
-
+We pre-train a base network on all examples in base classes
 ### Classifer weight imprinting
-
+We apply the feature extractor to imprint the novel classifier based on few labeled samples.
 ### Semi-supervised fine-tuning by MixMatch.
-
+We adopt the holisitc semi-supervised method MixMatch to fine-tune the novel classifier on few labeled samples and many unlabeled samples.
 
 # Results
 
