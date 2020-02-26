@@ -66,7 +66,7 @@ The successful application of deep learning to many visual recognition tasks rel
 Please cite our paper if it is helpful to your work:
 
 ```
-@inproceedings{li2019lst,
+@inproceedings{xxx,
   title={XXX},
   author = {XXX},
   booktitle={XXXX},
@@ -74,7 +74,4 @@ Please cite our paper if it is helpful to your work:
 }
 ```
 
-
-
-**Bold** and _Italic_ and `Code` text
 
