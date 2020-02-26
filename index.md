@@ -32,19 +32,6 @@ The overall architecture of our model.
 # Results
 
 ### Accuracy (in %) with different number of unlabeled images on miniImagenet
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-
-│          Method           │ Imprinting  │ MixMatch  │ TranMatch (Ours) │
-| ---------------------- | ------------ | ------------ | ------------ |
-| Imprinting            | `58.68 ± 0.81` | `52.00 ± 1.20` | `63.02 ± 1.07` |
-| Imprinting+Fine-tuning           | `76.06 ± 0.59` | `79.97 ± 0.62` | `81.19 ± 0.59` |
-| TransMatch| 20 | 58.43 ± 0.93 | 76.43 ± 0.61 |
-| TransMatch| 50 | | |
-| TransMatch| 100 | | |
-| TransMatch| 200 | | |
 
 
 ### Comparison of Imprinting, MixMatch and our TransMatch for 5-way classification with different number of shots on miniImagenet
