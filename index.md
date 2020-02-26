@@ -57,8 +57,19 @@ The overall architecture of our model.
 
 # Code
 
-# Cite
 
+
+# Cite
+Please cite our paper if it is helpful to your work:
+
+```
+@inproceedings{li2019lst,
+  title={XXX},
+  author = {XXX},
+  booktitle={XXXX},
+  year={2020}
+}
+```
 
 
 
