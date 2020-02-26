@@ -1,14 +1,12 @@
-# TransMatch: a transfer learning scheme for semi-supervised few-shot learning
+# TransMatch: A Transfer Learning Scheme for Semi-Supervised Few-Shot Learning
 
-Zhongjie Yu<sup>1</sup>, Lin Chen<sup>2</sup>, Zhongwei Cheng<sup>3</sup>, Jiebo Luo<sup>4</sup>
+Zhongjie Yu<sup>1</sup>, Lin Chen<sup>2</sup>, Zhongwei Cheng<sup>2</sup>, Jiebo Luo<sup>3</sup>
 
 <sup>1</sup>University of Wisconsin-Madison
 
-<sup>2</sup>
+<sup>2</sup> Futurewei
 
-<sup>3</sup>
-  
-<sup>4</sup>University of Rochester
+<sup>3</sup>University of Rochester
   
 Full paper: [Link](url)  
 # Abstract
@@ -66,10 +64,10 @@ The successful application of deep learning to many visual recognition tasks rel
 Please cite our paper if it is helpful to your work:
 
 ```
-@inproceedings{xxx,
-  title={XXX},
-  author = {XXX},
-  booktitle={XXXX},
+@inproceedings{TransMatch,
+  title={{TransMatch}: A Transfer Learning Scheme for Semi-Supervised Few-Shot Learning},
+  author = {Zhongjie Yu, Lin Chen, Zhongwei Cheng, Jiebo Luo},
+  booktitle={IEEE/CVF International Conference on Computer Vision and Pattern Recognition},
   year={2020}
 }
 ```
