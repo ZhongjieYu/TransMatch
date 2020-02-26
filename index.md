@@ -64,9 +64,9 @@ The successful application of deep learning to many visual recognition tasks rel
 Please cite our paper if it is helpful to your work:
 
 ```
-@inproceedings{TransMatch,
+@inproceedings{TransMatchCVPR2020,
   title={{TransMatch}: A Transfer Learning Scheme for Semi-Supervised Few-Shot Learning},
-  author = {Zhongjie Yu, Lin Chen, Zhongwei Cheng, Jiebo Luo},
+  author = {Zhongjie Yu and Lin Chen and Zhongwei Cheng and Jiebo Luo},
   booktitle={IEEE/CVF International Conference on Computer Vision and Pattern Recognition},
   year={2020}
 }
