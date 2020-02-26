@@ -32,7 +32,7 @@ The overall architecture of our model.
 # Results
 
 ### Accuracy (in %) with different number of unlabeled images on miniImagenet
-|          Method           | Imprinting  | MixMatch  | TranMatch (Ours) |
+│          Method           │ Imprinting  │ MixMatch  │ TranMatch (Ours) │
 | ---------------------- | ------------ | ------------ | ------------ |
 | Imprinting            | `58.68 ± 0.81` | `52.00 ± 1.20` | `63.02 ± 1.07` |
 | Imprinting+Fine-tuning           | `76.06 ± 0.59` | `79.97 ± 0.62` | `81.19 ± 0.59` |
