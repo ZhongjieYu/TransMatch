@@ -1,14 +1,14 @@
 # TransMatch: a transfer learning scheme for semi-supervised few-shot learning
 
-Zhongjie Yu<sup>1<sup>, Lin Chen<sup>2<sup>, Zhongwei Cheng<sup>3<sup>, Jiebo Luo<sup>4<sup>
+Zhongjie Yu<sup>1</sup>, Lin Chen<sup>2</sup>, Zhongwei Cheng<sup>3</sup>, Jiebo Luo<sup>4</sup>
 
-<sup>1<sup>University of Wisconsin-Madison
+<sup>1</sup>University of Wisconsin-Madison
 
-<sup>2<sup>
+<sup>2</sup>
 
-<sup>3<sup>
+<sup>3</sup>
   
-<sup>4<sup>
+<sup>4</sup>University of Rochester
   
   
 # Abstract
