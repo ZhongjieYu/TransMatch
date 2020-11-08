@@ -4,7 +4,7 @@ Zhongjie Yu<sup>1</sup>, Lin Chen<sup>2</sup>, Zhongwei Cheng<sup>2</sup>, Jiebo
 <a align="center"><sup>2</sup> Futurewei </a>
 <a align="center"><sup>3</sup>University of Rochester </a>
   
-Full paper: [Link](url)  
+Full paper: [Link](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_TransMatch_A_Transfer-Learning_Scheme_for_Semi-Supervised_Few-Shot_Learning_CVPR_2020_paper.pdf)  
 
 # Abstract
 The successful application of deep learning to many visual recognition tasks relies heavily on the availability of a large amount of labeled data which is usually expensive to obtain. The few-shot learning problem has attracted increasing attention from researchers for building a robust model upon only a few labeled samples. Most existing works tackle this problem under the meta-learning framework by mimicking the few-shot learning task with an episodic training strategy. In this paper, we propose a new transfer-learning framework for semi-supervised few-shot learning to fully utilize the auxiliary information from labeled base-class data and unlabeled novel-class data. The framework consists of three components: 1) pre-training a feature extractor on base-class data; 2) using the feature extractor to initialize the classifier weights for the novel classes; and 3) further updating the model with a semi-supervised learning method. Under the proposed framework, we develop a novel method for semi-supervised few-shot learning called TransMatch by instantiating the three components with Imprinting and MixMatch. Extensive experiments on two popular benchmark datasets for few-shot learning, CUB-200-2011 and miniImageNet, demonstrate that our proposed method can effectively utilize the auxiliary information from labeled base-class data and unlabeled novel-class data to significantly improve the accuracy of few-shot learning task.
@@ -60,10 +60,11 @@ The successful application of deep learning to many visual recognition tasks rel
 Please cite our paper if it is helpful to your work:
 
 ```
-@inproceedings{TransMatchCVPR2020,
-  title={TransMatch: A Transfer Learning Scheme for Semi-Supervised Few-Shot Learning},
-  author = {Zhongjie Yu and Lin Chen and Zhongwei Cheng and Jiebo Luo},
-  booktitle={IEEE/CVF International Conference on Computer Vision and Pattern Recognition},
+@inproceedings{yu2020transmatch,
+  title={TransMatch: A Transfer-Learning Scheme for Semi-Supervised Few-Shot Learning},
+  author={Yu, Zhongjie and Chen, Lin and Cheng, Zhongwei and Luo, Jiebo},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={12856--12864},
   year={2020}
 }
 ```
